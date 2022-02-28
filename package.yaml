@@ -20,6 +20,8 @@ extra-source-files:
 description:         Please see the README on GitHub at <https://github.com/githubuser/propositional-normalizer#readme>
 
 dependencies:
+- parsec
+- QuickCheck
 - base >= 4.7 && < 5
 
 library:
@@ -34,6 +36,8 @@ executables:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
+    - parsec
+    - QuickCheck
     - propositional-normalizer
 
 tests:
@@ -45,4 +49,6 @@ tests:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
+    - parsec
+    - QuickCheck
     - propositional-normalizer

@@ -1,6 +1,6 @@
 module Main where
 
-import Lib
+import Prop
 
 main :: IO ()
-main = someFunc
+main = putStrLn "hello, world"
